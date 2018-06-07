@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta charset="UTF-8">
+		<title>Formulário e PHP</title>
+
+	</head>
+	<body style="background-color:#f3f3f3;">
+
+        <div>
+            <form method="POST" action="cores.php" style="width: 300px; 
+            margin: 100px auto; background-color:azure; padding: 30px;">
+
+             <label for="itxt">Texto: </label>
+             <input type="text" name="t" id="itxt"><br><br>
+
+             <label for="itam">Tamanho: </label>
+             <select name="tam" id="itam">
+                  <option value="8pt">8</option>
+                   <option value="10pt">10</option>
+                    <option value="14pt">14</option>
+                   <option value="20pt">20</option>
+                    <option value="40pt">40</option>
+                </select><br><br>
+
+                <label for="icor">Cor: </label>
+               <input type="color" name="cor" id="icor"><br><br>
+
+              <input type="submit" value="Gerar">
+
+            </form>
+        </div>
+
+	</body>
+</html>	
